@@ -1,0 +1,71 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.grid3Cols{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+}
+
+.headerImg {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.headerTextBox {
+  align-self: center;
+}
+
+.headerText{
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Projects */
+.projectBox {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 24px;
+  transition: transform .3s;
+}
+
+.projectBox:hover {
+  transform: scale(1.03);
+}
+
+.projectImg {
+  margin-bottom: 24px;
+}
+
+.projectTitle {
+  margin-bottom: 16px;
+  font-size: 20px
+}
+
+.projectText {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.projectLink {
+  color: #343a40;
+  margin: 0 auto;
+  margin-right: 20px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.projectLink:hover {
+  color: #697579;
+}
+
+.contactContainer {
+  text-align: center;
+}
+
+.footerLink {
+  font-size: 18px;
+}
