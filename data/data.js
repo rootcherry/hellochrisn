@@ -30,8 +30,8 @@ export const data =
         short: "Explore my portfolio.",
         tech: "Next.js, Sass",
         imgSrc: "/images/cat.jpg",
-        git: "https://github.com/rootcherry/discover-coffee-stores",
-        url: ""
+        git: "https://github.com/rootcherry/hellochrisn",
+        url: "https://hello-chrisn.vercel.app/"
       },
       {
         id: 4,
