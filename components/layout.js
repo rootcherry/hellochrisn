@@ -13,7 +13,7 @@ const Layout = () => {
   return (
     <div className={utilStyles.container}>
       <Head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
@@ -26,8 +26,7 @@ const Layout = () => {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet"/>
-        <title>Hello, I'm Chris</title>
+        <title>Hello, I&apos;m Chris</title>
       </Head>
       
       <Header name={data.name} paragraph={data.paragraph} />

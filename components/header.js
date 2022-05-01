@@ -8,7 +8,6 @@ const Header = ({ name, paragraph }) => {
       <header>
         <Image
           className={utilStyles.headerImg}
-          priority
           src="/images/coffee.jpg"
           height={144}
           width={144}

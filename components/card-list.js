@@ -12,10 +12,11 @@ const CardList = ({ data }) => {
             data.map((project, idx) => {
               return (
                 <Card
+                  key={data[idx].id}
                   imgSrc={data[idx].imgSrc}
                   title={data[idx].title}
-                  tech={data[idx].tech}
                   short={data[idx].short}
+                  tech={data[idx].tech}
                   git={data[idx].git}
                   url={data[idx].url}
                 />
